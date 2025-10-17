@@ -1,0 +1,45 @@
+:root{
+    --main-color: #2E2F42;
+    --hover:#404BBF;
+}
+body{
+    font-family:"Roboto", sans-serif ;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.nav{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.nav:hover{
+    color: var(--hover);
+}
+
+.active{
+    text-decoration: underline;
+    color: var(--hover);
+}
+
+button{
+    width: 169px;
+    height: 56px;
+    color: #fff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#404BBF ;
+}
+
+.section-1{
+    text-align: center;
+    width:1440px ;
+    height: 600px;
+    background-color:#2E2F42 ;
+    color:#fff ;
+}
