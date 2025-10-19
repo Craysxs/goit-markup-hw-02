@@ -39,6 +39,10 @@ h3 {
   font-size: 18px;
 }
 
+.logo-3{
+  color: white;
+}
+
 .nav {
   color: var(--main-color);
   text-decoration: none;
