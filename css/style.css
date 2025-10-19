@@ -6,8 +6,37 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.logo {
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo-2 {
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav {
@@ -46,4 +75,8 @@ button:hover {
 
 .section-2 {
   background-color: #f4f4fd;
+}
+
+footer {
+  background-color: #2e2f42;
 }
